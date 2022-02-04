@@ -1,0 +1,24 @@
+// Addition of Numbers
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace My_Application
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+          //  int b = 20, a = 10;
+           
+          //  Console.WriteLine("The Addition is :- "+(a+b));
+            Console.WriteLine("Enter First Number ");
+            int a = int.Parse(Console.ReadLine());
+            Console.WriteLine("Enter Second Number ");
+            int b = int.Parse(Console.ReadLine());
+            Console.WriteLine("Addition is:- "+(a+b));
+            Console.ReadLine();
+        }
+    }
+}

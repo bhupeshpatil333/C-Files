@@ -1,0 +1,33 @@
+using System;
+namespace Double_value
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int a, b, sum;
+            for (int i = 0; i < 2; i++)
+            {
+                Console.WriteLine("Enter 1st No: ");
+                a = int.Parse(Console.ReadLine());
+                Console.WriteLine("Enter 2nd No: ");
+                b = int.Parse(Console.ReadLine());
+
+                if (a == b)
+                {
+                    Console.WriteLine("Numbers are Same " + a + " & " + b);
+                    sum = (a + b) * 2;
+                    Console.WriteLine("Sum of Double Result is:- " + sum);
+                    Console.ReadLine();
+                }
+                else
+                {
+                    sum = a + b;
+                    Console.WriteLine("Sum of " + a + " " + b + "  is:- " + sum);
+                    Console.ReadLine();
+                }
+            }
+        }
+    }
+}
+

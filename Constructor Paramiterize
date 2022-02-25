@@ -1,0 +1,43 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace Constructor
+{
+    public class Student
+    {
+        int Roll;
+        string Name;
+       public  Student()
+        { 
+            
+                Console.WriteLine("This is Default Constructor!!! ");
+                
+        }
+        // Paramiterise constructor
+      public   Student(int r, string n)
+         {
+             Roll = r;
+             Name = n;
+             Console.WriteLine("Roll No is:- "+r);
+             Console.WriteLine("Name is:- " + n);
+         }
+        
+    }
+    class Program
+    {
+        static void Main(string[] args)
+        {
+           Student s=new Student();
+           Student s1 = new Student(68, "Bhupesh");
+           Console.ReadLine();
+        }
+    }
+}
+
+
+Output:- 
+This is Default Constructor!!!
+Roll No is:- 68
+Name is:- Bhupesh

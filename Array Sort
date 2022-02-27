@@ -1,0 +1,57 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace ConsoleApplication3
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int n, i, j, temp;
+            int[] arr = new int[10];
+
+            Console.WriteLine("Enter Array of size: ");
+            n = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Enter The Elements: ");
+            for (i = 0; i < n; i++)
+            {
+                arr[i] = int.Parse(Console.ReadLine());
+            }
+
+            for (i = 0; i < n; i++)
+            {
+                for (j = i + 1; j < n; j++)
+                {
+                    if (arr[j] < arr[i])
+                    {
+                        temp = arr[i];
+                        arr[i] = arr[j];
+                        arr[j] = temp;
+                    }
+                }
+            }
+            Console.WriteLine("Elements of Array in sorted arry: ");
+            for (i = 0; i < n; i++)
+            {
+               Console.Write(arr[i]+" ");
+            }
+            Console.ReadLine();
+        }
+    }
+}
+
+Output:-
+Enter Array of size:
+6
+Enter The Elements:
+10
+8
+5
+55
+65
+4
+Elements of Array in sorted arry:
+4 5 8 10 55 65

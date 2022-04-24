@@ -27,3 +27,7 @@ namespace CSharp_Shell
         }
     }
 }
+
+Output:-
+Maximum number:-89
+Minimum number:-12

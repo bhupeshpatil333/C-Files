@@ -23,3 +23,11 @@ using System;
                 Console.ReadLine();
             }
         }
+
+Output:-
+Enter First Number
+10
+Enter Second Number
+0
+integer divide by 0 exception
+Attempted to divide by zero.

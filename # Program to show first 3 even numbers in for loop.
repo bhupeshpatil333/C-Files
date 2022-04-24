@@ -23,3 +23,11 @@ namespace CSharp_Shell
         }
     }
 }
+
+Output:-
+Enter a number:-
+6
+first 3 even numbers of given number in for loop:-
+2
+4
+6

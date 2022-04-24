@@ -17,3 +17,8 @@ class Program
             Console.ReadLine();
         }
     }
+
+Output:-
+Non Paramiterize Constrctor
+My Name is: Bhupesh
+

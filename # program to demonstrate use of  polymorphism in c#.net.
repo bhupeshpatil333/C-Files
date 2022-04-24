@@ -20,3 +20,8 @@ Namespace CSharp_Shell
         }
     }
    }
+
+
+Output:-
+Addition of a and b=30
+Addition of a.b and c=60

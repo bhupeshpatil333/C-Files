@@ -16,3 +16,7 @@ namespace CSharp_Shell
            }    
  }   
  }
+
+
+Output:-
+10

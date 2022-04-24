@@ -32,3 +32,14 @@ Console.WriteLine(r.s2);
     }
     }
 }
+
+
+Output:=
+sybca
+Bhupesh
+C#
+audit
+rdbms
+20
+30
+40

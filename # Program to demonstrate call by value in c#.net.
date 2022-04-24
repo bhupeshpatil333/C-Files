@@ -19,3 +19,7 @@ namespace CSharp_Shell
         }  
    }
   }  
+Output:-
+before function call:-20
+10
+after function call:-20

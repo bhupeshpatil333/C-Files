@@ -36,3 +36,7 @@ namespace array
     }
   }
 
+Output:-
+enter any number:-
+5
+True

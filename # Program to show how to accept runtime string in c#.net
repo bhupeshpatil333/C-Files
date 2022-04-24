@@ -16,3 +16,12 @@ class Program
     }
   }
 }
+
+Output:-
+Enter The Word
+hello
+How Many Times
+2
+ hello
+ hello
+

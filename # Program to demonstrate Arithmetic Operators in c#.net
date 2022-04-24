@@ -33,3 +33,18 @@ Console.WriteLine("Modulation of a and b="+c);
 Console.ReadLine();
 }
 }
+
+Output:-
+Enter value of a=
+10
+Enter value of b=
+30
+Addition of a and b=40
+
+Substraction of a and b =-20
+
+Division of a and b =0
+
+Multiplication of a and b=300
+
+Modulation of a and b=10

@@ -23,3 +23,7 @@ class student
             Console.ReadLine();
         }
     }
+
+Output:-
+Base class
+Derived class

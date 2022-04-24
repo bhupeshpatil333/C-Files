@@ -15,3 +15,7 @@ class Program
         Console.ReadLine();
     }
 }
+
+
+Output:-
+Constructor called
